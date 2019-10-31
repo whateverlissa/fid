@@ -17,3 +17,18 @@
           <textarea name="Delivery Instructions" rows="5" cols="60" maxlength="400" id="form-Instructions">(Your entry must be no more than 400 characters long.)</textarea></li>
         </ol>
 </fieldset>
+<h2>Design your Dream Pizza:</h2>
+
+<fieldset>
+<legend>Pizza specs</legend>
+
+<fieldset>
+<legend>Crust(choose one)</legend>
+        <ul>
+          <li><label><input type="radio" name="crust" value="Classic White" />Classic White</label></li>
+          <li><label><input type="radio" name="crust" value="Multigrain" />Multigrain</label></li>
+          <li><label><input type="radio" name="crust" value="Cheese-stuffed crust" />Cheese-stuffed crust</label></li>
+          <li><label><input type="radio" name="crust" value="Gluten-free" />Gluten-free</label></li>
+        </ul>
+</fieldset>
+
