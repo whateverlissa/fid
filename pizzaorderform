@@ -31,4 +31,33 @@
           <li><label><input type="radio" name="crust" value="Gluten-free" />Gluten-free</label></li>
         </ul>
 </fieldset>
+<fieldset>
+<legend>Toppings <em>(Choose as many as you want)</em></legend>
+        <ul>
+          <li><label><input type="checkbox" name="toppings[]" value="Sauce" />Red Sauce</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Sauce" />White sauce</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Cheese" />Mozzarella Cheese</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Pepperoni" />Pepperoni</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Mushrooms" />Mushrooms</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Peppers" />Peppers</label></li>
+          <li><label><input type="checkbox" name="toppings[]" value="Anchovies" />Anchovies</label></li>
+        </ul>
+</fieldset>
+<fieldset>
+<legend>Number</legend>
+<label for="Amount">How many pizzas:</label>
+			 <select name="amount" id="amount">
+  			 <option>1</option>
+  			 <option>2</option>
+  			 <option>3</option>
+  			 <option>4</option>
+  			 <option>5</option>
+  			 <option>6</option>
+			</select>
+</fieldset>
+</fieldset>		 			 
+<p><input type="submit" value="Bring me pizza!" /><input type="reset" /></p>
+</form>
+</body>
+</html>
 
