@@ -31,7 +31,7 @@ a:focus, a:hover {
   background-color: ;
 }
 a:active {
-  color: #FFD0C7;
+  color: #ffe6ff;
   background-color: #fff;
 }
 
@@ -46,7 +46,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: .5em;
   text-align: center;
-  color: #55692a;
+  color:#ffc1bd;
 }
 dt {
   font-weight: bold;
